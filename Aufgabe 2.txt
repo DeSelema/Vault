@@ -1,0 +1,19 @@
+Aufgabe 2
+a)
+Für die 1. Version sollte man einfach die folgende Befehle einführen:
+git add * (Um die bearbeietete Datei dem Index hinzuzufügen.
+git commit -a[-m Nachricht'] (um die geänderten und gelöschten Datei hinzuzufügen und zu commiten)
+git push (um die neuen Commits des lokalen Repositories für den aktuellen Branches in das remote Repository zu übertragen).
+
+für die weiteren Versionen :
+git pull (um die Änderungen der aktuellen Branches von seinem origin zu laden und sie in das Lokale Repository yu übertragen)
+git add * (wie oben beschrieben)
+git commit -a[-m Nachricht'] (wie oben beschrieben)
+git push
+
+
+b)
+Dateien mit den Endungen .java und .class sollten jeweils in einem git-Repository versioniert werden.
+Begründung:
+bei größeren Projekten ist es sinnvoller die ganze java-Datei zu versionieren,da man eine bessere Überblick vom Projekt haben kann.
+aber bei kleineren Projekten ist es einfacher die einzelnen Klassen zu versionieren,da man die einzelne Details der Datei beobchten und besser verstehen.
