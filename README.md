@@ -1,5 +1,5 @@
 # SWT22_Ghanem_Miresh_SierraChala
 ## Teammitglieder
-<ul>
+<ol>
 <li>Tammam Ghanem<\li>
-<\ul>
+<\ol>
