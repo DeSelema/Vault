@@ -3,4 +3,5 @@
 <ol>
 <li>Tammam Ghanem</li>
 <li>Mustafa Miresh</li>
+<li>Valentina Sierra Chala</li>
 </ol>
