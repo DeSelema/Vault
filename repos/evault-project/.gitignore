@@ -93,3 +93,8 @@ gradle-app.setting
 # Always include local mvn repo
 !/localRepo/**/*
 
+#dist folders
+dist/
+!/evault-project/**/dist
+
+
