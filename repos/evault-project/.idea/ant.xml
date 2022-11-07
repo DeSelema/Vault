@@ -4,6 +4,7 @@
     <defaultAnt name="Apache Ant version 1.8.4" />
     <buildFile url="file://$PROJECT_DIR$/wallet/build.xml">
       <antReference bundledAnt="true" />
+      <maximumHeapSize value="512" />
     </buildFile>
   </component>
 </project>
