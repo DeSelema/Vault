@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=org.codehaus.mojo -DartifactId=ideauidesigner-maven-plugin -Dversion=1.0-beta-2 -Dpackaging=maven-plugin -DpomFile=ideauidesigner-pom.xml -Dfile=ideauidesigner-maven-plugin-1.0-beta-2.jar
