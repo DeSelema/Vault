@@ -16,19 +16,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="vfsjfilechooser2" />
         <module name="common-utils" />
         <module name="evault" />
-      </profile>
-      <profile name="Annotation profile for vfsjfilechooser2" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="vfsjfilechooser2" />
-      </profile>
-      <profile name="Annotation profile for image-viewer" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="image-viewer" />
       </profile>
     </annotationProcessing>
@@ -36,7 +26,7 @@
       <module name="common-utils" target="1.8" />
       <module name="evault" target="1.8" />
       <module name="ewallet-aggregator" target="1.5" />
-      <module name="image-viewer" target="1.6" />
+      <module name="image-viewer" target="1.7" />
       <module name="vfsjfilechooser2" target="1.6" />
       <module name="wallet" target="1.8" />
     </bytecodeTargetLevel>
