@@ -1,7 +1,3 @@
 # SWT22_Ghanem_Miresh_SierraChala
-## Teammitglieder
-<ul>
-<li>Ghanem</li>
-<li>Miresh</li>
-<li>Sierra Chala</li>
-</ul>
+## Teammtglieder
+[Miresh](https://se.mathematik.uni-marburg.de/swt/ws22/)
