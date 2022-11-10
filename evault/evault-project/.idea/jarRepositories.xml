@@ -14,12 +14,22 @@
     <remote-repository>
       <option name="id" value="localRepo" />
       <option name="name" value="localRepo" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <option name="url" value="file://C:\Users\Miresh\Desktop\ST\SWT22_Ghanem_Miresh_SierraChala\evault\evault-project\wallet/../localRepo" />
+=======
+>>>>>>> c2a58860ecb2b301798c7ef5c79a70f44209dc60
       <option name="url" value="file://C:\Users\tamma\Desktop\SW\SWT22_Ghanem_Miresh_SierraChala\evault\evault-project\wallet/../localRepo" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="localRepo" />
       <option name="name" value="localRepo" />
       <option name="url" value="file://C:\Users\tamma\Desktop\SW\SWT22_Ghanem_Miresh_SierraChala\evault\evault-project\common-utils/../localRepo" />
+<<<<<<< HEAD
+=======
+>>>>>>> 877ab4c0e0fbd4610bb0c278b92e29d9b91de9f7
+>>>>>>> c2a58860ecb2b301798c7ef5c79a70f44209dc60
     </remote-repository>
     <remote-repository>
       <option name="id" value="localRepo" />
@@ -35,6 +45,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="localRepo" />
+      <option name="name" value="localRepo" />
+      <option name="url" value="file://C:\Users\Miresh\Desktop\ST\SWT22_Ghanem_Miresh_SierraChala\evault\evault-project\common-utils/../localRepo" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="localRepo" />
