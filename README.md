@@ -1,4 +1,4 @@
-# SWT22_Ghanem_Miresh_SierraChala
+# SWT22_Ghanem_Miresh
 ## Teammitglieder
 
 <ul>
