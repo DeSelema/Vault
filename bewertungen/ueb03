@@ -13,7 +13,14 @@ Erster Satz richtig. Zweiter Satz falsch.
 Die Methode wird überschrieben. Protected erlaubt die Sichtbarkeit innerhalb der Klassenhierarchie.
 
 b)
+Assoziation zwischen WalletModel und PassCombinationVO braucht eine Richtung. -0,5p
+impModel sollte als Assoziation und nicht als Attribut modeliert werden. -0,5p
+Assoziation zwischen DisplayMode und WalletForm macht keinen Sinn. -0,5p
+Assoziation zwischen ItemDetailView und WalletModel fehlt. -0,5p
+Assoziation zwischen DisplayMode und ItemDetailView ist falsch herum. -0,5p
+currentMode bei ItemDetailView wird standardmäßig mit  DisplayMode.view initialisiert. -0,5p
 
+5p
 
 c)
 Die Erklärungen fehlen. Die Abhängigkeiten sich auch falsch. 0p
