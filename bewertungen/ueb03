@@ -12,6 +12,8 @@ a)
 Erster Satz richtig. Zweiter Satz falsch.
 Die Methode wird überschrieben. Protected erlaubt die Sichtbarkeit innerhalb der Klassenhierarchie.
 
+1p
+
 b)
 Assoziation zwischen WalletModel und PassCombinationVO braucht eine Richtung. -0,5p
 impModel sollte als Assoziation und nicht als Attribut modeliert werden. -0,5p
