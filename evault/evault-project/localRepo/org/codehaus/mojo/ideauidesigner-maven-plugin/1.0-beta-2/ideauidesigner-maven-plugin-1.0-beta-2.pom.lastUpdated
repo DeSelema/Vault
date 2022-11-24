@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 16:00:11 CET 2020
+https\://repo1.maven.org/maven2/.error=
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.codehaus.mojo\:ideauidesigner-maven-plugin\:pom\:1.0-beta-2 from/to central (http\://repo1.maven.org/maven2)\: Transfer failed for http\://repo1.maven.org/maven2/org/codehaus/mojo/ideauidesigner-maven-plugin/1.0-beta-2/ideauidesigner-maven-plugin-1.0-beta-2.pom 501 HTTPS Required
+@default-central-http\://repo1.maven.org/maven2/.lastUpdated=1604575246716
+https\://repo1.maven.org/maven2/.lastUpdated=1605193211866

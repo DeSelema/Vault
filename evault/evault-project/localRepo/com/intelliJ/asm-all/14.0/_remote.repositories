@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:16:42 CET 2020
+asm-all-14.0.jar>=
+asm-all-14.0.pom>=

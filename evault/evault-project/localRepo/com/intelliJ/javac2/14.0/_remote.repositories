@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Nov 12 23:16:39 CET 2020
+javac2-14.0.jar>=
+javac2-14.0.pom>=
