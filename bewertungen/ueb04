@@ -7,6 +7,8 @@ Assoziation zwischen Category und Root hat falsche Kardinalität. Eine Kategorie
 Gleiches Problem zwischen Category und Category. -0,5p
 An Vererbungspfeile kommen keine Kardinalitäten! -0,5p
 
+2p
+
 
 b)
 Datenbank kann hier mehrere Wurzel haben.
