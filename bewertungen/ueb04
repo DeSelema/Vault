@@ -23,16 +23,12 @@ Man sollte die Klassen von EVault mit dem Diagramm vergleichen.
 
 
 A2
-a)
+Bei a): Fehlende Kante, dasWalletItem netflix muss in einem WalletModel enthalten sein.
+Bei b): Das zweite ist kein Fehler.
+Bei c): Das zweite ist kein Fehler.
+Bei d): Der Wert der Konstanten ist in beiden WalletModel-Instanzen unterschiedlich.Bei d): Das Feld spinner1 ist vom Typ String bekommt aber einen int zugewiesen.
 
-
-b)
-
-
-c)
-
-
-d)
-
+2p
 
 A3
+Sieht gut aus. 4p
