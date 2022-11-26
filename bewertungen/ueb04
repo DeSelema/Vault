@@ -8,11 +8,18 @@ Gleiches Problem zwischen Category und Category. -0,5p
 An Vererbungspfeile kommen keine Kardinalitäten! -0,5p
 
 
-
 b)
+Datenbank kann hier mehrere Wurzel haben.
+Datenbank hätte einen Verweis auf sich selbst.
+Nirgends werden die Unterelemente von Category modelliert.
 
+2p
 
 c)
+Hier wurde wohl die Aufgabe falsch verstanden.
+Man sollte die Klassen von EVault mit dem Diagramm vergleichen.
+
+0p
 
 
 A2
