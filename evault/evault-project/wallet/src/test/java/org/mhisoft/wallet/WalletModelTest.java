@@ -29,6 +29,9 @@ import org.junit.Test;
 import org.mhisoft.wallet.model.ItemType;
 import org.mhisoft.wallet.model.WalletItem;
 import org.mhisoft.wallet.model.WalletModel;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Description: WalletModelTest
@@ -196,6 +199,39 @@ public class WalletModelTest {
 		Assert.assertEquals(model.getItemsFlatList().get(7).getName(), "g");
 		Assert.assertEquals(model.getItemsFlatList().get(8).getName(), "h-empty parent node");
 	}
+
+	@Test(expected=IllegalStateException.class)
+	public void testItemFlatList() {
+		WalletModel obj2 = new WalletModel();
+		obj2.setItemsFlatList(null);
+		// der erste Test schlägt fehl, da die Liste null ist.
+	}
+
+	@Test
+	public  void testItemFlatList2() {
+		WalletItem item1 = new WalletItem(ItemType.category,"Daten");
+		WalletItem item2 = new WalletItem(ItemType.item,"Uni");
+		WalletItem item3 = new WalletItem(ItemType.item,"Bank");
+		WalletModel model1 = new WalletModel();
+		List<WalletItem> list = new ArrayList<>();
+		list.add(item1);
+		list.add(item2);
+		list.add(item3);
+
+
+		model1.setItemsFlatList(list);
+		model1.buildTreeFromFlatList();
+
+		Assert.assertEquals(item2.getParent().equals(item1),model1.isRoot(item1));
+		Assert.assertEquals(item3.getParent().equals(item1),model1.isRoot(item1));
+		Assert.assertEquals(item1.hasChildren(),true);
+		Assert.assertEquals(item1.getChildren().get(0),item2);
+		Assert.assertEquals(item1.getChildren().get(1),item3);
+		// der zweite Test klappt nicht, da die Objekte alphabetisch sortiert sein sollten.
+
+	}
+
+
 
 
 }
